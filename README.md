@@ -1,4 +1,17 @@
 # Sensor Fusion Self-Driving Car Course
+In this project, I have implemented an obstacle detection algorithm using LIDAR measurements. The project required implmenting plane segmentation to detect the road as well as implementating clustering algorithm to detect the cars in the road. RANSAC was used to model the plane which was used for planar segmentation and kd-trees were used for an efficient neighbor search which was used for clustering.
+
+## My results
+
+The ego car is denoted by the frame at the center (roughly) of the circular void.
+
+<p float="left">
+  <img src="media/lidar_obstacle_detection.gif" width="100%" height = "80%" />
+</p>
+
+- TODO: Tune the hyperparameters to track all the objects throughout all the frames.
+
+## The starter code was given and below are the instructions/materials provided.
 
 <img src="media/ObstacleDetectionFPS.gif" width="700" height="400" />
 
